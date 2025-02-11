@@ -1,4 +1,3 @@
-
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -1227,6 +1226,7 @@ img.most-faq {
     font-size: 35px;
     color: #6b2d56;
 }
+
 img.Eligibility {
     width: 14%;
 }
@@ -1266,6 +1266,14 @@ img.Eligibility {
         height: 32vh;
     }
 
+    .bg-breadcrumb .bg-breadcrumb-single {
+        width: 300px;
+    }
+
+    .bg-breadcrumb::after {
+        width: 50px;
+        margin-left: 20px;
+    }
 }
 
 /* Small devices (portrait phones, less than 576px) */
@@ -1283,6 +1291,14 @@ img.Eligibility {
         height: 28vh;
     }
 
+    .bg-breadcrumb .bg-breadcrumb-single {
+        width: 300px;
+    }
+
+    .bg-breadcrumb::after {
+        width: 50px;
+        margin-left: 20px;
+    }
 }
 
 /* Medium devices (tablets, 576px to 991px) */
